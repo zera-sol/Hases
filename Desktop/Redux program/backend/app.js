@@ -34,7 +34,7 @@ app.set('view engine', 'jade');
 //app.use(cors()); this is used to connect the frontend and backend
 app.use(cors(
   {
-    origin: 'https://zera-blog-frontend.vercel.app',
+    origin: 'https://zera-blog.vercel.app',
     credentials: true
   }
 ));
