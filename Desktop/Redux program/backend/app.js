@@ -13,7 +13,8 @@ var usersRoute = require('./Routes/usersRoute');
 var postRoute = require('./Routes/postRoute')
 // database.js
 // Connect to MongoDB
-mongoose.connect('mongodb://127.0.0.1:27017/blogDB', {
+const uri = 'mongodb+srv://zedomanwithjesu1994:122331ETH%21%40%23@cluster0.a8dxe.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
+mongoose.connect(uri, {
   useNewUrlParser: true,
   useUnifiedTopology: true
 })  
