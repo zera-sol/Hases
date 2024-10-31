@@ -1,0 +1,10 @@
+[
+    { "title": "Design", "description": "24 jobs available", "topIcon": "fa fa-id-card", "bottomIcon": "fa fa-angle-double-right" },
+    { "title": "Health", "description": "34 jobs available", "topIcon": "fa fa-heartbeat", "bottomIcon": "fa fa-angle-double-right" },
+    { "title": "Accounting", "description": "2 jobs available", "topIcon": "fa fa-institution", "bottomIcon": "fa fa-angle-double-right" },
+    { "title": "Engineering", "description": "26 jobs available", "topIcon": "fa fa-home", "bottomIcon": "fa fa-angle-double-right" },
+    { "title": "Sales", "description": "10 jobs available", "topIcon": "fa fa-line-chart", "bottomIcon": "fa fa-angle-double-right" },
+    { "title": "It", "description": "5 jobs available", "topIcon": "fa fa-laptop", "bottomIcon": "fa fa-angle-double-right" },
+    { "title": "Teaching", "description": "12 jobs available", "topIcon": "fa-solid fa-chalkboard-user", "bottomIcon": "fa fa-angle-double-right" }
+  ]
+  

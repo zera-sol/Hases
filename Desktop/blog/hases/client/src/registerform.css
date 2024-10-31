@@ -1,0 +1,35 @@
+*{
+    margin:5px;
+    box-sizing: border-box;
+}
+div.registerform{
+    background-color: white;
+    color: black;
+    width: 250px;
+    margin: 10px auto 0;
+}
+div.registerform h2, label{
+    text-align: left;
+    font-weight: bold;
+}
+div.registerform input, button{
+   width: 100%;
+   padding: 10px;
+}
+div.registerform .register{
+    background-color: rgb(14, 121, 14);
+    color: white;
+    border: none;
+}
+.errorbox{
+    background-color: rgb(177, 62, 62);
+    width: 100%;
+    padding: 5px;
+    color: white;
+}
+.sucessbox{
+    background-color: rgb(65, 204, 95);
+    width: 100%;
+    padding: 5px;
+    color: white;
+}

@@ -1,0 +1,65 @@
+:root {
+    --gradient-bg: linear-gradient(to right, #0EA4E9, #6366F1);
+  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.loginpage{
+    background: var(--gradient-bg) ;
+    height: 100vh;
+}
+.loginpage form{
+    width: 420px;
+    background: #fff;
+    padding: 40px 20px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.loginpage form h2{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #0EA4E9;
+    text-decoration: underline;
+}
+.loginpage form label{
+    font-size: 18px;
+    font-weight: 500;
+    color: #0EA4E9;
+    margin-top: 30px;
+}
+.loginpage form input{
+    width: 100%;
+    padding: 10px;
+    margin: 3px 0;
+    border-radius: 10px;
+    background-color: #E8F0FE;
+    border: none;
+    font-family: monospace;
+}
+.loginpage form input:focus{
+    outline: none;
+    border-color: none;
+}
+.loginpage form button{
+    width: 100%;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background: var(--gradient-bg);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.loginpage form .link-registerPage{
+   text-decoration: none;
+   color: #0EA4E9;
+   display: flex;
+    justify-content: flex-end;
+    align-items:center;
+    margin: 10px 0;
+}
